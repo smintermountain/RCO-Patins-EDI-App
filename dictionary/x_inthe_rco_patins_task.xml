@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" label="Task" max_length="40" name="x_inthe_rco_patins_task" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Add work notes" max_length="4000" name="u_add_work_notes" type="journal_input"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" reference_qual="javascript:new global.IHCReferenceQualifierBuilder().getGroupMember(current.u_assignment_group)" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" reference_qual="u_security_group=false^ORu_approval_group=false^EQ" reference_qual_condition="u_security_group=false^ORu_approval_group=false^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Category" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element label="Citrix" sequence="1" value="citrix"/>
+                <element label="Cirius Job Manager" sequence="2" value="cirius_job_mgr"/>
+                <element label="Cirius Prebill" sequence="3" value="cirius_prebill"/>
+                <element label="Cirius Remit Manager" sequence="4" value="cirius_remit_mgr"/>
+                <element label="Edifecs" sequence="5" value="edifecs"/>
+                <element label="Maintenance" sequence="6" value="maintenance"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Recurrence" max_length="40" name="u_recurrence" type="choice">
+            <choice>
+                <element label="Daily" sequence="1" value="daily"/>
+                <element label="Weekly" sequence="2" value="weekly"/>
+                <element label="Monthly" sequence="3" value="monthly"/>
+                <element label="Quarterly" sequence="4" value="quarterly"/>
+                <element label="Bi-Annually" sequence="5" value="bi-annually"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Short description" max_length="160" name="u_short_description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element label="Draft" sequence="1" value="1"/>
+                <element label="Open" sequence="2" value="2"/>
+                <element label="Work in progress" sequence="3" value="3"/>
+                <element label="Closed Complete" sequence="4" value="4"/>
+                <element label="Closed Incomplete" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_assignment_group"/>
+        </index>
+    </element>
+</database>

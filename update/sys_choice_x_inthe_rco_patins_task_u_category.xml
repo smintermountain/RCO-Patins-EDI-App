@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_category" table="x_inthe_rco_patins_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Citrix</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:04:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0aa63aa24f153e40af76d0af0310c7db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:04:19</sys_updated_on>
+            <u_task/>
+            <value>citrix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cirius Job Manager</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54d63aa24f153e40af76d0af0310c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:04:44</sys_updated_on>
+            <u_task/>
+            <value>cirius_job_mgr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cirius Prebill</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84e63aa24f153e40af76d0af0310c7e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:04:59</sys_updated_on>
+            <u_task/>
+            <value>cirius_prebill</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cirius Remit Manager</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:05:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9f67aa24f153e40af76d0af0310c7f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:05:20</sys_updated_on>
+            <u_task/>
+            <value>cirius_remit_mgr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Edifecs</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:05:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc07baa24f153e40af76d0af0310c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:05:33</sys_updated_on>
+            <u_task/>
+            <value>edifecs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b30772a24f153e40af76d0af0310c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 17:05:47</sys_updated_on>
+            <u_task/>
+            <value>maintenance</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <name>x_inthe_rco_patins_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 17:04:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>12b6b6a24f153e40af76d0af0310c7c7</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>u_category</sys_name>
+            <sys_package display_value="RCO PatinsEDI Application" source="x_inthe_rco_patins">60af6e6a4fd13e40af76d0af0310c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RCO PatinsEDI Application">60af6e6a4fd13e40af76d0af0310c788</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_rco_patins_task_u_category</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-26 15:49:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

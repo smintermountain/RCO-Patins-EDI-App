@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2cf1be2e4fd13e40af76d0af0310c7d3" sys_domain="global" table="x_inthe_rco_patins_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:43:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60f1be2e4fd13e40af76d0af0310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_rco_patins_task" name="x_inthe_rco_patins_task" sys_domain="global" view="Default view">2cf1be2e4fd13e40af76d0af0310c7d3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_rco_patins_task" sys_domain="global" view="Default view">d5b1ba2e4fd13e40af76d0af0310c794</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:43:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:43:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0f1be2e4fd13e40af76d0af0310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_rco_patins_task" name="x_inthe_rco_patins_task" sys_domain="global" view="Default view">2cf1be2e4fd13e40af76d0af0310c7d3</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_inthe_rco_patins_task" sys_domain="global" view="Default view">d4f1be2e4fd13e40af76d0af0310c7d3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:43:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_inthe_rco_patins_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:43:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cf1be2e4fd13e40af76d0af0310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inthe_rco_patins_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO PatinsEDI Application" source="x_inthe_rco_patins">60af6e6a4fd13e40af76d0af0310c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RCO PatinsEDI Application">60af6e6a4fd13e40af76d0af0310c788</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2cf1be2e4fd13e40af76d0af0310c7d3</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:43:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

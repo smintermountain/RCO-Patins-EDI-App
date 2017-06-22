@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_template">
+    <sysauto_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition><![CDATA[//Do not create task if it is Saturday or Sunday
+
+function checkWeekdays(){
+	var now = new GlideDateTime();
+	var day = now.getDayOfWeekLocalTime();
+	var result;
+	//gs.info("***************************day is " + day);
+	
+	if(day == 6 || day == 0){
+		result = false;
+	} else {
+		result = true;
+	}
+	//gs.info("*************** result is "+ result);
+	return result;
+	
+}	
+
+checkWeekdays();]]></condition>
+        <conditional>true</conditional>
+        <name>Scheduled Generation based on CA Service Desk Manager Ticket Review</name>
+        <run_as display_value="Tyler Kaneko">f6633c034f784600af76d0af0310c74e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-03-07 17:10:09</run_start>
+        <run_time>1970-01-01 11:00:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_template</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-03-07 17:22:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7308f6e24f153e40af76d0af0310c7ca</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Scheduled Generation based on CA Service Desk Manager Ticket Review</sys_name>
+        <sys_package display_value="RCO PatinsEDI Application" source="x_inthe_rco_patins">60af6e6a4fd13e40af76d0af0310c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RCO PatinsEDI Application">60af6e6a4fd13e40af76d0af0310c788</sys_scope>
+        <sys_update_name>sysauto_template_7308f6e24f153e40af76d0af0310c7ca</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-03-07 17:27:57</sys_updated_on>
+        <template/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_template>
+</record_update>

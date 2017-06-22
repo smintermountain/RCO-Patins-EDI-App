@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_recurrence" table="x_inthe_rco_patins_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_recurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daily</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:37:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df703aea4fd13e40af76d0af0310c7f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:37:29</sys_updated_on>
+            <u_task/>
+            <value>daily</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_recurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekly</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:37:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ea076ea4fd13e40af76d0af0310c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:37:50</sys_updated_on>
+            <u_task/>
+            <value>weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_recurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2b07eea4fd13e40af76d0af0310c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:38:07</sys_updated_on>
+            <u_task/>
+            <value>monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_recurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:38:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42c076ea4fd13e40af76d0af0310c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:38:22</sys_updated_on>
+            <u_task/>
+            <value>quarterly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_recurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bi-Annually</label>
+            <language>en</language>
+            <name>x_inthe_rco_patins_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47d072ea4fd13e40af76d0af0310c761</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-03-07 16:38:42</sys_updated_on>
+            <u_task/>
+            <value>bi-annually</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_recurrence</element>
+            <name>x_inthe_rco_patins_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-03-07 16:37:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0d90baea4fd13e40af76d0af0310c7fb</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>u_recurrence</sys_name>
+            <sys_package display_value="RCO PatinsEDI Application" source="x_inthe_rco_patins">60af6e6a4fd13e40af76d0af0310c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RCO PatinsEDI Application">60af6e6a4fd13e40af76d0af0310c788</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_rco_patins_task_u_recurrence</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-05-26 15:49:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
